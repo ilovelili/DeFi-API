@@ -1,0 +1,7 @@
+heroku login
+heroku create
+heroku config:set INFURA_URL=xxxxx
+heroku config:set PRIVATE_KEY=xxxxx
+
+git push heroku master => then get the deployed uri (http://stormy-caverns-81187.herokuapp.com/)
+check logs: heroku dashboard => more => view logs
